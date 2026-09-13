@@ -30,6 +30,5 @@ def create_character(name, strength, intelligence, charisma):
     cha_line = "CHA " + (full_dot * charisma) + (empty_dot * (10 - charisma))
     return name + "\n" + str_line + "\n" + int_line + "\n" + cha_line
 
-
 create_character("ren", 3, 3, 1)
 print(create_character("ren", 3, 3, 1))
